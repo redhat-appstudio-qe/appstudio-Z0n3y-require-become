@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-xssl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-path-service-tenant/appstudio/dc-metro-map-xssl@sha256:96f1d0c323da1e57666999d3f1b635eccb9b5467453e62ac201a8019bc07c858
         name: my-nodejs
         ports:
         - containerPort: 3001
